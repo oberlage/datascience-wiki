@@ -68,7 +68,7 @@ and what they might actually mean ...
 	- Image Augmentation
 - Sound
 - Time Series
-- NLP / Text processing
+- Text processing / NLP
 	- Stemming
 	- Tokenization
 - Trees / Structures / Hierarchies
@@ -82,9 +82,10 @@ and what they might actually mean ...
 
 ## Machine learning / Statistical learning methods
 - Bias-Variance Trade-Off
-- Feature extraction
 - Dimensionality reduction
-    - PCA
+    - Feature extraction
+        - PCA
+    - Feature selection
 - Unsupervised vs. Supervised Learning
 - Supervised learning
     - Regression
