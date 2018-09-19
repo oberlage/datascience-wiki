@@ -1,5 +1,11 @@
 # Oberon's Datascience Wiki
 
+## What is this?
+During my bachelor I learnt a lot, but found that the overview between concepts in different courses is lacking. 
+So as I started a new study, I'll try to organise the concepts and (try to) summarize my knowledge.
+
+Currently, the list below is more of a braindump of concepts and terms related to Data Science that crossed my path last year.
+
 
 ## Buzzword Bingo
 - Big Data
@@ -31,7 +37,7 @@
 - Data storage
 	- CSV
 	- JSON
-		- JSON 2 CSV -> jq cli tool (brew install jq)
+		- Preprocessing: JSON 2 CSV -> jq cli tool (brew install jq)
 	- XML
 	- Pickle
 	- HD5
@@ -58,7 +64,7 @@
 	- Vector data
 - Streaming data (of various kinds)
 
-## Machine learning / Statistical learning
+## Machine learning / Statistical learning methods
 - Feature extraction
 - Regression
 - XGBoost
@@ -95,7 +101,7 @@
 - Unsupervised learning
 	- Clustering
 	- 
-- Dec. Tree / Random Forest
+- Decision Trees + Random Forest
 - ROC curves
 - Coding examples
 	- Python
@@ -107,9 +113,9 @@
 
 ## Optimalisation & Simulation
 - Mathematical Optimalisation (Operations Research)
+    - (Non-)Linear programming
 	- Multi-Criteria Decision Making
 	- Heuristics
-	- 
 - Simulation
 	- Monte-Carlo
 	- Agent-Based Modelling
@@ -121,7 +127,7 @@
 	- Python
 	- Go lang
 	- Scala
-	- Lua ?
+	- Lua
 	- C++
 	- Java
 	- Swift
@@ -136,8 +142,7 @@
 - Building a simple (data) webservice 101
 	- Servers: Apache & Nginx [Apache vs Nginx: Practical Considerations | DigitalOcean](https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations)
 	- Code: Go example, Python example, Nginx static example
-	- Design Patterns (direct calculation, jobs with queue, pre-calced cache)
-	- 
+	- Design Patterns (direct calculation, jobs with queue, pre-calculated caches)
 
 ## Visualisation & Communication
 - Visualisation theory basics
@@ -149,7 +154,7 @@
 	- D3.js (JS)
 	- Processing(.js) (JS)
 - Plotting geographical data
-	- Python: gdal / shapely / descartes
+	- Python: gdal / shapely / descartes / geopandas
 - Storytelling
 
 ## Data Science Process
@@ -157,7 +162,7 @@
 - Research methods
 	- Qualitative research
 	- Quantitative research
-- Data Science process 
+- Data Science lifecycle / process 
 	- models (comparisson)
 		- CRISP-DM model
 		- Harvard Data Science model
@@ -166,7 +171,7 @@
 - Problem recognition & formulation
 - Critical thinking 101
 - Scenario thinking
-- Information analysis & information (system) ecosystems (chained systems)
+- Information analysis & information (system) ecosystems
 - Data-driven Decision making
 
 
