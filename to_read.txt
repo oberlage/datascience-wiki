@@ -1,0 +1,2 @@
+https://towardsdatascience.com/supervised-vs-unsupervised-learning-14f68e32ea8d
+https://www.slideshare.net/jph98/building-data-pipelines-59430833

@@ -14,7 +14,7 @@ and what they might actually mean ...
 - Machine Learning
 - Algorithm
 
-## Data Engineering & Tools
+## Data Engineering, ETL & Tools
 - Kimball data modelling theory
 - Information retrieval
 	- Web Scraping
@@ -48,7 +48,9 @@ and what they might actually mean ...
             - SQL basics
         - Non-Relational / NoSQL
             - MongoDB
+            - Cassandra
             - ElasticSearch
+            - Neo4J (Graph)
     - Datalakes
 - Distributed computing
     - MapReduce pattern
@@ -57,6 +59,7 @@ and what they might actually mean ...
 		- HDFS
 	- Spark
 		- PySpark
+    - Kafka (streaming data)
 
 ## Data Types (+ Preprocessing)
 - Images
@@ -77,15 +80,22 @@ and what they might actually mean ...
 
 ## Machine learning / Statistical learning methods
 - Feature extraction
+- Dimensionality reduction
+    - PCA
 - Unsupervised vs. Supervised Learning
-- PCA
-- Regression
-    - Linear regression
-    - Logistic regression
-- Decision Trees
-    - Simple Decision Trees
-    - Random Forests
-    - XGBoost
+- Supervised learning
+    - Regression
+        - Linear regression
+        - Logistic regression
+    - Classification
+        - Decision Trees
+            - Simple Decision Trees
+            - Random Forests
+            - XGBoost
+- Unsupervised learning
+    - Clustering
+        - k-Means
+        - k-NN
 - Recommender systems
 	- Collaborative filtering
 - Hidden Markov Models
