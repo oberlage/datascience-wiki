@@ -7,7 +7,6 @@ So as I started my new Data Science study, I thought it would be a good idea to 
 Currently, the list below is more of a braindump of concepts and terms related to Data Science that crossed my path last year.
 It's obviously a work in progress 😬
 
-
 ## Buzzword Bingo
 and what they might actually mean ...
 - Big Data
@@ -27,16 +26,14 @@ and what they might actually mean ...
 		- SOAP
 		- GraphQL
 - Data pipeline orchestration
-	- Luigi (Job scheduler / pipelines)
-	- Airflow
+    - Concepts
+        - Directed acyclic graphs
+        - Idempotency
+    - Tools
+        - Batch scripts
+        - Luigi
+        - Airflow
 - Data storage
-    - Datalakes
-    - Databases
-        - Relational / SQL
-            - Data modelling
-            - SQL basics
-        - Non-Relational / NoSQL
-            - MongoDB
     - File formats
         - CSV
         - JSON
@@ -45,7 +42,15 @@ and what they might actually mean ...
         - Pickle
         - HD5
         - Parquet
+    - Databases
+        - Relational / SQL
+            - Data modelling
+            - SQL basics
+        - Non-Relational / NoSQL
+            - MongoDB
+    - Datalakes
 - Distributed computing
+    - MapReduce pattern
 	- DASK
 	- Hadoop
 		- HDFS
@@ -105,8 +110,8 @@ and what they might actually mean ...
     - ...
 - ROC curves
 - Coding examples
-	- Python
 	- R
+	- Python
 
 ## Neural nets
 - Basic theory
@@ -115,8 +120,8 @@ and what they might actually mean ...
 ## Optimalisation & Simulation
 - Mathematical Optimalisation (Operations Research)
     - (Non-)Linear programming
-	- Multi-Criteria Decision Making
 	- Heuristics
+	- Multi-Criteria Decision Making
 - Simulation
 	- Monte-Carlo
 	- Agent-Based Modelling
