@@ -1,30 +1,22 @@
 # Oberon's Datascience Wiki
 
 ## What is this?
-During my bachelor I learnt a lot, but found that the overview between concepts in different courses is lacking. 
-So as I started a new study, I'll try to organise the concepts and (try to) summarize my knowledge.
+During my bachelor I learnt a lot, but never took the time to relate all concepts to eachother. Which I now see as a missed opportunity.
+So as I started my new Data Science study, I thought it would be a good idea to try to organise the concepts in one place.
 
 Currently, the list below is more of a braindump of concepts and terms related to Data Science that crossed my path last year.
+It's obviously a work in progress 😬
 
 
 ## Buzzword Bingo
+and what they might actually mean ...
 - Big Data
 - The Cloud
 - Machine Learning
 - Algorithm
 
 ## Data Engineering Tools
-- Kimball data modelling
-- Datalakes
-- Data pipeline orchestration
-	- Luigi (Job scheduler / pipelines)
-	- Airflow
-- Databases
-	- Relational Databases / SQL
-		- Data modelling
-		- SQL basics
-	- NoSQL
-		- MongoDB
+- Kimball data modelling theory
 - Information retrieval
 	- Web Scraping
 		- BeautifulSoup
@@ -34,14 +26,25 @@ Currently, the list below is more of a braindump of concepts and terms related t
 		- REST
 		- SOAP
 		- GraphQL
+- Data pipeline orchestration
+	- Luigi (Job scheduler / pipelines)
+	- Airflow
 - Data storage
-	- CSV
-	- JSON
-		- Preprocessing: JSON 2 CSV -> jq cli tool (brew install jq)
-	- XML
-	- Pickle
-	- HD5
-	- Parquet
+    - Datalakes
+    - Databases
+        - Relational / SQL
+            - Data modelling
+            - SQL basics
+        - Non-Relational / NoSQL
+            - MongoDB
+    - File formats
+        - CSV
+        - JSON
+            - Preprocessing: JSON 2 CSV -> jq cli tool (brew install jq)
+        - XML
+        - Pickle
+        - HD5
+        - Parquet
 - Distributed computing
 	- DASK
 	- Hadoop
