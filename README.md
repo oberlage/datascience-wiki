@@ -13,6 +13,8 @@ and what they might actually mean ...
 - The Cloud
 - Machine Learning
 - Algorithm
+    - Time Complexity
+    - Space Complexity
 
 ## Data Engineering, ETL & Tools
 - Kimball data modelling theory
@@ -79,6 +81,7 @@ and what they might actually mean ...
 - Streaming data (of various kinds)
 
 ## Machine learning / Statistical learning methods
+- Bias-Variance Trade-Off
 - Feature extraction
 - Dimensionality reduction
     - PCA
@@ -88,20 +91,31 @@ and what they might actually mean ...
         - Linear regression
         - Logistic regression
     - Classification
+        - Naive Bayes
         - Decision Trees
             - Simple Decision Trees
+            - Bagging & Boosting
             - Random Forests
             - XGBoost
+        - K-NN
+        - Support Vector Machines (SVM)
 - Unsupervised learning
     - Clustering
-        - k-Means
-        - k-NN
+        - K-means
+        - Fuzzy C-means (Soft K-means)
+        - Expectation Maximization
+        - DBSCAN
+- Reinforcement Learning
 - Recommender systems
 	- Collaborative filtering
 - Hidden Markov Models
 - Gradient Descent
 
 ## Statistics
+- Statistics, big data and modern data science
+    - Statistics alone is old data science?
+    - With big data, are samples still needed?
+    - Role of statistics in modern data science
 - Bayes Theorem
 - Distributions
 	- Normal / Guassian
