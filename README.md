@@ -15,8 +15,8 @@ Currently, the list below is more of a braindump of concepts and terms related t
 
 ## Data Engineering Tools
 - Kimball data modelling
-- Datalake -> dataviews
-- Data pipelines
+- Datalakes
+- Data pipeline orchestration
 	- Luigi (Job scheduler / pipelines)
 	- Airflow
 - Databases
@@ -57,7 +57,7 @@ Currently, the list below is more of a braindump of concepts and terms related t
 - NLP / Text processing
 	- Stemming
 	- Tokenization
-- Trees / structures / Hierarchies
+- Trees / Structures / Hierarchies
 	- Graph theory
 - Geo data
 	- Raster data
@@ -66,9 +66,15 @@ Currently, the list below is more of a braindump of concepts and terms related t
 
 ## Machine learning / Statistical learning methods
 - Feature extraction
-- Regression
-- XGBoost
+- Unsupervised vs. Supervised Learning
 - PCA
+- Regression
+    - Linear regression
+    - Logistic regression
+- Decision Trees
+    - Simple Decision Trees
+    - Random Forests
+    - XGBoost
 - Recommender systems
 	- Collaborative filtering
 - Hidden Markov Models
@@ -91,17 +97,7 @@ Currently, the list below is more of a braindump of concepts and terms related t
 - Tests
 	- Shapiro Wilkx (Normality)
 	- Chi-squared
-	- 
-- Regression
-	- Linear regression
-	- Logistic regression
-- Supervised learning
-	- Classification
-	- 
-- Unsupervised learning
-	- Clustering
-	- 
-- Decision Trees + Random Forest
+    - ...
 - ROC curves
 - Coding examples
 	- Python
