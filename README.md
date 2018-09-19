@@ -14,7 +14,7 @@ and what they might actually mean ...
 - Machine Learning
 - Algorithm
 
-## Data Engineering Tools
+## Data Engineering & Tools
 - Kimball data modelling theory
 - Information retrieval
 	- Web Scraping
@@ -48,6 +48,7 @@ and what they might actually mean ...
             - SQL basics
         - Non-Relational / NoSQL
             - MongoDB
+            - ElasticSearch
     - Datalakes
 - Distributed computing
     - MapReduce pattern
@@ -142,7 +143,7 @@ and what they might actually mean ...
 	- Object Oriented Programming / Functional programming
 	- GIT / Version Control
 	- Interpreted vs Compiled
-	- (Un)typed data structures
+	- Data structures & typing
 - Security basics
 	- OWASP top10
 - Building a simple (data) webservice 101
@@ -188,6 +189,5 @@ And what kind of tools they offer...
 - Microsoft Azure
 
 ## Other
-- How to publish a site on Github Pages
 - Data Privacy laws (GDPR)
 - Emergent properties of data and what data science can actually bring you
