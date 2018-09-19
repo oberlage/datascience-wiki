@@ -65,6 +65,8 @@ and what they might actually mean ...
 - Geo data
 	- Raster data
 	- Vector data
+    - Sattelite data
+    - GPS Coordinates
 - Streaming data (of various kinds)
 
 ## Machine learning / Statistical learning methods
@@ -139,7 +141,7 @@ and what they might actually mean ...
 - Security basics
 	- OWASP top10
 - Building a simple (data) webservice 101
-	- Servers: Apache & Nginx [Apache vs Nginx: Practical Considerations | DigitalOcean](https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations)
+	- Servers: Apache & Nginx [Apache vs Nginx: Practical Considerations @ DigitalOcean](https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations)
 	- Code: Go example, Python example, Nginx static example
 	- Design Patterns (direct calculation, jobs with queue, pre-calculated caches)
 
