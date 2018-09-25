@@ -13,8 +13,8 @@ and what they might actually mean ...
 - The Cloud
 - Machine Learning
 - Algorithm
-    - Time Complexity
-    - Space Complexity
+    1. Time Complexity
+    2. Space Complexity
 
 ## Data Engineering, ETL & Tools
 - Kimball data modelling theory
@@ -76,7 +76,7 @@ and what they might actually mean ...
 - Geo data
 	- Raster data
 	- Vector data
-    - Sattelite data
+    - Sattelite data (Spectra)
     - GPS Coordinates & Projections
 - Streaming data (of various kinds)
 
@@ -123,36 +123,36 @@ and what they might actually mean ...
 
 ## Statistics
 - Statistics, big data and modern data science
-    - Statistics alone is old data science?
-    - With big data, are samples still needed?
-    - Role of statistics in modern data science
+    1. Statistics alone is old data science?
+    2. With big data, are samples still needed?
+    3. Role of statistics in modern data science
 - Frequentist Statistics vs. Bayesian Statistics
-	- Frequentist Probability
-	- Bayes Theorem
+	1. Frequentist Probability
+	2. Bayes Theorem
 - Bias
-	- Inductive bias
-	- Postdiction & Hindsight bias
-	- ...
+	1. Inductive bias
+	2. Postdiction & Hindsight bias
+	3. ...
 - Distributions
-	- Normal / Guassian
-	- Exponential
-	- Gamma
-	- Uniform
-	- Poisson
-	- Binomial
-	- t-distribution
-	- Chi-squared
+	1. Normal / Guassian
+	2. Exponential
+	3. Gamma
+	4. Uniform
+	5. Poisson
+	6. Binomial
+	7. t-distribution
+	8. Chi-squared
 - Probability
 - Confidence intervals
 	- One-sides / two-sided
 - Tests
-	- Shapiro Wilkx (Normality)
-	- Chi-squared
-    - ...
+	1. Shapiro Wilkx (Normality)
+	2. Chi-squared
+    3. ...
 - ROC curves
 - Coding examples
-	- R
-	- Python
+	1. R
+	2. Python
 
 ## Neural nets
 - Basic theory
@@ -160,13 +160,13 @@ and what they might actually mean ...
 
 ## Optimalisation & Simulation
 - Mathematical Optimalisation (Operations Research)
-    - (Non-)Linear programming
-	- Heuristics
-	- Multi-Criteria Decision Making
+    1. (Non-)Linear programming
+	2. Heuristics
+	3. Multi-Criteria Decision Making
 - Simulation
-	- Monte-Carlo
-	- Agent-Based Modelling
-	- (Refer to Decision Science 2 for type of simulation?)
+	1. Monte-Carlo
+	2. Agent-Based Modelling
+	3. (Refer to Decision Science 2 for type of simulation?)
 
 
 ## Programming
@@ -201,7 +201,11 @@ and what they might actually mean ...
 	5. D3.js (JS)
 	6. Processing(.js) (JS)
 - Plotting geographical data
-	- Python: gdal / shapely / descartes / geopandas
+	- Python Tools
+		1. gdal
+		2. shapely
+		3. descartes
+		4. geopandas
 - Storytelling
 
 ## Data Science Process
