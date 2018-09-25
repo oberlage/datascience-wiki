@@ -20,17 +20,17 @@ and what they might actually mean ...
 - Kimball data modelling theory
 - Information retrieval
 	- Web Scraping
-		- BeautifulSoup
-		- Scrapy
-		- Selenium
+		1. BeautifulSoup
+		2. Scrapy
+		3. Selenium
 	- API formats
-		- REST
-		- SOAP
-		- GraphQL
+		1. REST
+		2. SOAP
+		3. GraphQL
 - Data pipeline orchestration
     - Concepts
-        - Directed acyclic graphs
-        - Idempotency
+        1. Directed acyclic graphs
+        2. Idempotency
     - Tools
         - Batch scripts
         - Luigi
@@ -39,7 +39,7 @@ and what they might actually mean ...
     - File formats
         - CSV
         - JSON
-            - Preprocessing: JSON 2 CSV -> jq cli tool (brew install jq)
+            1. Preprocessing: JSON 2 CSV -> jq cli tool (brew install jq)
         - XML
         - Pickle
         - HD5
@@ -69,7 +69,7 @@ and what they might actually mean ...
 - Sound
 - Time Series
 - Text processing / NLP
-	- Stemming
+	- Lemmatization (Stemming)
 	- Tokenization
 - Trees / Structures / Hierarchies
 	- Graph theory
@@ -77,7 +77,7 @@ and what they might actually mean ...
 	- Raster data
 	- Vector data
     - Sattelite data
-    - GPS Coordinates
+    - GPS Coordinates & Projections
 - Streaming data (of various kinds)
 
 ## Machine learning / Statistical learning methods
@@ -93,6 +93,7 @@ and what they might actually mean ...
         - Logistic regression
     - Classification
         - Naive Bayes
+			1. `Naive` is because it assumes all features are independent
         - Decision Trees
             - Simple Decision Trees
             - Bagging & Boosting
@@ -105,19 +106,33 @@ and what they might actually mean ...
         - K-means
         - Fuzzy C-means (Soft K-means)
         - Expectation Maximization
+		- Hierarchical Clustering
+			1. Ward Linkage
+			2. Average Linkage
+			3. Complete Linkage
         - DBSCAN
 - Reinforcement Learning
 - Recommender systems
 	- Collaborative filtering
 - Hidden Markov Models
 - Gradient Descent
+- Topic Modelling
+	- Term Frequency Inverse Document Frequency (TF-IDF)
+	- Latent Dirichlet Allocation (LDA)
+	- Non-Negative Matrix Factorization (NNMF)
 
 ## Statistics
 - Statistics, big data and modern data science
     - Statistics alone is old data science?
     - With big data, are samples still needed?
     - Role of statistics in modern data science
-- Bayes Theorem
+- Frequentist Statistics vs. Bayesian Statistics
+	- Frequentist Probability
+	- Bayes Theorem
+- Bias
+	- Inductive bias
+	- Postdiction & Hindsight bias
+	- ...
 - Distributions
 	- Normal / Guassian
 	- Exponential
@@ -179,27 +194,29 @@ and what they might actually mean ...
 ## Visualisation & Communication
 - Visualisation theory basics
 - Frameworks for plotting
-	- Matplotlib (Py)
-	- Seaborn (Py)
-	- ggplot (R)
-	- Shiny (R)
-	- D3.js (JS)
-	- Processing(.js) (JS)
+	1. Matplotlib (Py)
+	2. Seaborn (Py)
+	3. ggplot (R)
+	4. Shiny (R)
+	5. D3.js (JS)
+	6. Processing(.js) (JS)
 - Plotting geographical data
 	- Python: gdal / shapely / descartes / geopandas
 - Storytelling
 
 ## Data Science Process
 - Scientific method
+	1. Occam's Razor
+	2. Scientific Modelling
 - Research methods
-	- Qualitative research
-	- Quantitative research
+	1. Qualitative research
+	2. Quantitative research
 - Data Science lifecycle / process 
 	- models (comparisson)
-		- CRISP-DM model
-		- Harvard Data Science model
-		- Microsoft Data Science Lifecycle
-		- Sacha 2014
+		1. CRISP-DM model
+		2. Harvard Data Science model
+		3. Microsoft Data Science Lifecycle
+		4. Sacha 2014
 - Problem recognition & formulation
 - Critical thinking 101
 - Scenario thinking
@@ -216,3 +233,13 @@ And what kind of tools they offer...
 ## Other
 - Data Privacy laws (GDPR)
 - Emergent properties of data and what data science can actually bring you
+
+## Nice links to articles/etc
+- [Stanford Machine Learning Cheatsheet: Supervised learning](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning)
+- [Stanford Machine Learning Cheatsheet: Unsupervised learning](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-unsupervised-learning)
+- [Stanford Machine Learning Cheatsheet: Machine Learning Tips&Tricks](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks)
+- [Stanford Machine Learning Cheatsheet: Deep Learning](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-deep-learning)
+
+## Links to Data Science blogs 
+- [Towards Data Science](https://towardsdatascience.com)
+- [Datascience Central](https://www.datasciencecentral.com)
